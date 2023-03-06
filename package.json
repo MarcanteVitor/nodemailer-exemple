@@ -1,0 +1,27 @@
+{
+  "name": "nodemailer-exemple",
+  "version": "1.0.0",
+  "description": "A simple nodemailer usage exemple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcanteVitor/nodemailer-exemple.git"
+  },
+  "author": "Vitor Marcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcanteVitor/nodemailer-exemple/issues"
+  },
+  "homepage": "https://github.com/MarcanteVitor/nodemailer-exemple#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.1"
+  }
+}
